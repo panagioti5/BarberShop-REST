@@ -1,5 +1,6 @@
 package com.shop.rest.constants;
 
+
 import com.shop.rest.entities.*;
 import com.shop.rest.utils.UtilsImpl;
 
@@ -8,17 +9,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Temp {
-//    public static List<User> allUsers;
-//
-//    static {
-//        allUsers = new ArrayList<User>();
-//        User user1 = new User("christoforos@gmail.com", "passwordC", "christoforos", 99084676, false, false, null, true);
-//        User user2 = new User("panagiotis@gmail.com", "passwordP", "panagiotis", 99084676, false, false, null, true);
-//        User user3 = new User("andreas@gmail.com", "passwordA", "andreas", 99084676, false, false, null, true);
-//        allUsers.add(user1);
-//        allUsers.add(user2);
-//        allUsers.add(user3);
-//    }
 
     public static List<Shop> getShopsList(String city) {
         //This method will return object only of below type.Nothing more. We need efficient API on loading of all Shops. "Heavy" API will take place once user clicks on any shop.

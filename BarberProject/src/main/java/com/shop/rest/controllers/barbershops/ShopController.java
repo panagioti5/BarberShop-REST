@@ -30,7 +30,6 @@ public class ShopController {
     @GetMapping("/getAllShopsByAreaAndDateTime/{city}/{currentDateTimeInMills}/{indexId}")
     @SuppressWarnings("unchecked")
     public List<Shop> getAllShops(@PathVariable String city, @PathVariable long currentDateTimeInMills, @PathVariable int indexId) {
-        System.out.println("Helloooooooooooooooo");
         return (List<Shop>) shopService.getAllShopsByAreaAndDateTime(city, currentDateTimeInMills, indexId);
     }
 
